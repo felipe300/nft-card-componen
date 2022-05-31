@@ -1,0 +1,14 @@
+---
+import CardIcon from "../CardIcon.astro";
+import CardFooter from "./CardFooter.astro";
+
+---
+<div class="my-3 mx-6">
+  <a class="text-white no-underline font-semibold text-lg py-5 p-0 inline-block hover:text-Cyan" href="/">Equilibrium #3429</a>
+  <p class="text-Soft-blue font-light text-sm">Our Equilibrium collection promotes balance and calm.</p>
+  <div class="flex items-center justify-between py-6 px-0 border-solid border-b-dark-blue-line">
+    <CardIcon src="/images/icon-ethereum.svg" alt="etherium image" text="0.041 ETH" classes="text-Cyan font-semibold" />
+    <CardIcon src="/images/icon-clock.svg" alt="clock image" text="3 days left" classes="font-normal text-Soft-blue" />
+  </div>
+  <CardFooter />
+</div>

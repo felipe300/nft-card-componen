@@ -1,0 +1,7 @@
+---
+const { src, alt, text, classes} = Astro.props
+---
+<div class="flex items-center">
+  <img src={src} alt={alt} >
+  <p class:list={[classes, "text-lg pl-2"]}>{text}</p>
+</div>

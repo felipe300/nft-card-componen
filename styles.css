@@ -8,8 +8,9 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  background: hsl(217, 54%, 11%);
-  display: grid;
+  background: hsl(216, 50%, 16%);
+  display: flex;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
